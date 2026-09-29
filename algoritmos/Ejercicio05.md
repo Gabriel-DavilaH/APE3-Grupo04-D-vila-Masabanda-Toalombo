@@ -1,6 +1,6 @@
 ## Enunciado 
 Implemente un sistema con saldo inicial y las opciones: consultar saldo, depositar, retirar, ver número de transacciones y salir. No permita valores negativos ni retiros superiores al saldo disponible.## Análisis
-
+## Analisis 
 Entrada:
 
 Saldo inicial.

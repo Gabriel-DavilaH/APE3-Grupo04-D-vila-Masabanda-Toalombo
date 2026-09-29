@@ -47,3 +47,59 @@ Estructuras esperadas: for, while, contador, acumulador, validación, mayor y me
 4. Número de aprobados.
 5. Número de reprobados.
 
+## Algoritmo
+
+```
+Inicio
+
+    Leer N
+
+    Mientras N <= 0 Hacer
+        Mostrar "N debe ser mayor que 0"
+        Leer N
+    FinMientras
+
+    suma ← 0
+    mayor ← -1
+    menor ← 11
+    aprobados ← 0
+    reprobados ← 0
+
+    Para i ← 1 Hasta N Hacer
+
+        Leer nota
+
+        Mientras nota < 0 O nota > 10 Hacer
+            Mostrar "Calificación inválida"
+            Leer nota
+        FinMientras
+
+        suma ← suma + nota
+
+        Si nota > mayor Entonces
+            mayor ← nota
+        FinSi
+
+        Si nota < menor Entonces
+            menor ← nota
+        FinSi
+
+        Si nota >= 6 Entonces
+            aprobados ← aprobados + 1
+        SiNo
+            reprobados ← reprobados + 1
+        FinSi
+
+    FinPara
+
+    promedio ← suma / N
+
+    Mostrar "Promedio general: ", promedio
+    Mostrar "Calificación mayor: ", mayor
+    Mostrar "Calificación menor: ", menor
+    Mostrar "Número de aprobados: ", aprobados
+    Mostrar "Número de reprobados: ", reprobados
+
+Fin
+```
+

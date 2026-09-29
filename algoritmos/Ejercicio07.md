@@ -1,5 +1,6 @@
 ## Enunciado
 Ejercicio 7. Venta de entradas CineCampus
+
 Registre de manera repetitiva ventas de entradas. Para cada venta solicite tipo de entrada, cantidad y precio. 
 Calcule subtotal por venta y total acumulado. Después de cada registro pregunte si desea realizar otra venta.
 

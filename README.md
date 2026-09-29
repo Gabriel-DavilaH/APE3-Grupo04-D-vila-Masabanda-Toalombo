@@ -22,27 +22,36 @@ Comprender y aplicar los conceptos teóricos y prácticos de las estructuras de 
 
 ## 📝 Descripción de los Ejercicios
 
-* **Ejercicio 1:** El programa permite registrar las calificaciones de un grupo de estudiantes, validar que los datos ingresados sean correctos y calcular información general como la suma, el promedio, la nota más alta, la nota más baja y la cantidad de estudiantes aprobados y reprobados.
-* **Ejercicio 2:** El programa permite ingresar una tabla inicial y una tabla final para generar las tablas de multiplicar correspondientes. También permite establecer hasta qué multiplicador se mostrarán los resultados y valida que la tabla inicial no sea mayor que la tabla final.
-* **Ejercicio 3:** El programa permite ingresar un número N y generar la serie de números pares desde 2 hasta N. Además, calcula la cantidad de números pares, su suma y el promedio de los valores
-* **Ejercicio 4:** 
-El programa simula el funcionamiento de un cajero académico con un saldo inicial de $100. Permite consultar el saldo, realizar depósitos y retiros, validar que los valores ingresados sean correctos y verificar que existan fondos suficientes. Además, utiliza contadores y acumuladores para registrar la cantidad y el total de depósitos y retiros, mostrando los movimientos realizados y un resumen final con el saldo disponible.
-* **Ejercicio 5:** 
-El programa simula un estacionamiento universitario donde se registra el tipo de vehículo y las horas estacionadas. Calcula el valor a pagar según la tarifa correspondiente y obtiene estadísticas como la cantidad de motocicletas, automóviles y camionetas, el total recaudado y el promedio pagado.
-* **Ejercicio 6:** 
-El programa solicita un número entre 2 y 10 y genera tres patrones utilizando ciclos anidados: un triángulo creciente de asteriscos, un triángulo decreciente y un patrón numérico creciente.
-
-* **Ejercicio 7:** 
-El programa permite registrar ventas de productos de una cafetería universitaria, validando las cantidades ingresadas. Calcula el subtotal de cada venta, el total recaudado, la cantidad total de productos, el promedio por venta y determina cuál fue el producto más vendido.
-
-* **Ejercicio 8:** 
-El programa utiliza un ciclo while para mostrar los números del 1 al 10. Se identifica y corrige el error mediante el incremento de la variable numero, evitando que el ciclo se ejecute indefinidamente.
-
-* **Ejercicio 9:** 
-El programa registra información de varios estudiantes, como edad, semestre y horas de estudio. Valida los datos y calcula promedios, identifica al estudiante con mayor cantidad de horas de estudio, cuenta quienes estudian menos de 2 horas y determina la cantidad de estudiantes por semestre.
-
-* **Ejercicio 10:** 
-El programa permite registrar vehículos según su tipo, rol, horas de permanencia, día de la semana y estado del boleto. Calcula tarifas, descuentos, recargos y multas, además de mostrar estadísticas sobre los vehículos registrados, horas, valores pagados y recaudación total.
+1. Promedio de calificaciones
+Desarrolle un programa que solicite la cantidad N de estudiantes y luego registre sus calificaciones, válidas entre 0 y 10. El sistema debe mostrar el promedio general, la calificación mayor, la menor, el número de aprobados y el número de reprobados.
+Estructura sugerida: for. Conceptos: Contador, acumulador, validación, mayor y menor.
+2. Control de edades con centinela
+Ingrese edades válidas de personas. El ingreso terminará cuando se escriba -1. El programa deberá determinar cuántos son menores de edad, adultos y mayores de 65 años, además del promedio de edades ingresadas.
+Estructura sugerida: while. Conceptos: Centinela, contadores, acumulador y validación.
+3. Calculadora con menú repetitivo
+Construya un menú con las opciones: 1) Sumar, 2) Restar, 3) Multiplicar, 4) Dividir y 5) Salir. El menú debe repetirse hasta seleccionar Salir. Controle la división para evitar dividir entre cero.
+Estructura sugerida: do-while + switch. Conceptos: Menú, repetición, selección y validación.
+4. Tabla de multiplicar validada
+Solicite un número entre 1 y 12. Si el dato es incorrecto, deberá volver a solicitarlo. Una vez validado, genere su tabla de multiplicar desde 1 hasta 12.
+Estructura sugerida: while + for. Conceptos: Validación previa y ciclo controlado.
+5. Cajero universitario
+Implemente un sistema con saldo inicial y las opciones: consultar saldo, depositar, retirar, ver número de transacciones y salir. No permita valores negativos ni retiros superiores al saldo disponible.
+Estructura sugerida: do-while. Conceptos: Menú, acumuladores, contador y validaciones.
+6. Estadísticas de un curso
+Registre las calificaciones de N estudiantes. Calcule promedio general, nota mayor, nota menor, cantidad y porcentaje de aprobados y reprobados. Valide que todas las notas estén entre 0 y 10.
+Estructura sugerida: for. Conceptos: Acumuladores, contadores, porcentajes y validación.
+7. Venta de entradas CineCampus
+Registre de manera repetitiva ventas de entradas. Para cada venta solicite tipo de entrada, cantidad y precio. Calcule subtotal por venta y total acumulado. Después de cada registro pregunte si desea realizar otra venta.
+Estructura sugerida: do-while. Conceptos: Acumulador, contador, selección y repetición.
+8. Estacionamiento universitario
+Registre varios vehículos indicando tipo, número de horas y tarifa correspondiente. Calcule el valor individual y la recaudación total. El proceso finalizará al ingresar una opción centinela definida por el equipo.
+Estructura sugerida: while. Conceptos: Centinela, acumuladores, validaciones y selección.
+9. Matriz lógica de asistencia
+Solicite el número de estudiantes y el número de días. Para cada estudiante registre su asistencia mediante P (presente) o A (ausente). Al finalizar muestre las asistencias y ausencias de cada estudiante y los totales del curso.
+Estructura sugerida: for anidado. Conceptos: Ciclos anidados, contadores y validación.
+10. Sistema integrado de ventas
+Desarrolle un sistema con menú: 1) Registrar venta, 2) Mostrar estadísticas y 3) Salir. Cada venta debe solicitar producto, cantidad y precio. Las estadísticas mostrarán número de ventas, unidades vendidas, total recaudado, venta mayor y promedio por venta.
+Estructura sugerida: do-while + for/while. Conceptos: Integración de menús, ciclos, acumuladores, contadores y validaciones.
 
 
 ## 🏗️ Estructuras Utilizadas

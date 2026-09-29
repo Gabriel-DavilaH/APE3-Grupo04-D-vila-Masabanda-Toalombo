@@ -23,7 +23,7 @@ Estructuras utilizadas:
 while → validación del número.
 if → mostrar mensaje cuando el dato es incorrecto.
 for → generar la tabla de multiplicar.
-## Pseudocódigo
+## Algoritmo 
 ````
 Algoritmo TablaMultiplicar
 

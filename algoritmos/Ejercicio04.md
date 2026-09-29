@@ -1,3 +1,5 @@
+## Enunciado 
+Solicite un número entre 1 y 12. Si el dato es incorrecto, deberá volver a solicitarlo. Una vez validado, genere su tabla de multiplicar desde 1 hasta 12.
 ## Análisis
 
 Entrada:

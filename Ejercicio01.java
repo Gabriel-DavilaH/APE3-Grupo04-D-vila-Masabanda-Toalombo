@@ -38,3 +38,16 @@ public class Ejercicio01 {
                 reprobados++;
             }
         }
+
+        double promedio = suma / N;
+
+        System.out.println("\n--- RESULTADOS ---");
+        System.out.println("Promedio general: " + promedio);
+        System.out.println("Calificacion mayor: " + mayor);
+        System.out.println("Calificacion menor: " + menor);
+        System.out.println("Numero de aprobados: " + aprobados);
+        System.out.println("Numero de reprobados: " + reprobados);
+
+        sc.close();
+    }
+}
